@@ -15,12 +15,12 @@
     },
     "portsAttributes": {
         "8080": {
-            "label": "HTTP",
-            "onAutoForward": "notify"
+            "label": "app",
+            "onAutoForward": "openBrowser"
         },
         "5001": {
-            "label": "HTTPS",
-            "onAutoForward": "notify"
+            "label": "app-https",
+            "onAutoForward": "ignore"
         }
     },
     "workspaceFolder": "/workspaces/adyen-dotnet-online-payments/checkout-example-advanced"

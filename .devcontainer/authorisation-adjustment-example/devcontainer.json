@@ -16,11 +16,11 @@
     "portsAttributes": {
         "8080": {
             "label": "app",
-            "onAutoForward": "notify"
+            "onAutoForward": "openBrowser"
         },
         "5001": {
             "label": "app-https",
-            "onAutoForward": "notify"
+            "onAutoForward": "ignore"
         }
     },
     "workspaceFolder": "/workspaces/adyen-dotnet-online-payments/authorisation-adjustment-example"
