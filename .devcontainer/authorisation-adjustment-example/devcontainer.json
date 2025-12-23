@@ -16,7 +16,7 @@
     "portsAttributes": {
         "8080": {
             "label": "app",
-            "onAutoForward": "openBrowser"
+            "onAutoForward": "notify"
         },
         "5001": {
             "label": "app-https",
